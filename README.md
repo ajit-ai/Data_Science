@@ -3,8 +3,24 @@
 A curated collection of Jupyter notebook projects and tutorials covering data science,
 machine learning, deep learning, NLP, GenAI/RAG, big data, and graph analysis.
 
-Datasets live in [`content/`](content/).
+Datasets live in [`content/`](content).
 Library setup: `pip install -r requirements.txt` · Most notebooks also run free on [Google Colab](https://colab.research.google.com) via the badges below.
+
+## Collection at a glance — 134 notebooks
+
+| Folder | # | Focus |
+|---|---|---|
+| [01_Fundamentals](01_Fundamentals) | 9 | NumPy/Pandas/Seaborn, statistics, Plotly |
+| [02_Data_Analysis_EDA](02_Data_Analysis_EDA) | 7 | Covid, IPL, Zomato, MovieLens case studies |
+| [03_Machine_Learning](03_Machine_Learning) | 53 | Every core algorithm + 30 end-to-end projects |
+| [04_Deep_Learning](04_Deep_Learning) | 16 | TF/PyTorch/fastai, CNN-RNN-LSTM, transformers, vision |
+| [05_NLP_Embeddings](05_NLP_Embeddings) | 11 | Word2Vec→BERT fine-tuning, topics, spaCy |
+| [06_GenAI_LLM_RAG](06_GenAI_LLM_RAG) | 12 | Prompting, agents, RAG stack, diffusion, Whisper |
+| [07_BigData_Spark](07_BigData_Spark) | 7 | RDDs→DataFrames→MLlib→streaming→SQL windows |
+| [08_Graphs_Networks](08_Graphs_Networks) | 5 | NetworkX algorithms, GNNs, link prediction |
+| [09_Other_Experiments](09_Other_Experiments) | 4 | Quantum computing, optimization |
+| [10_Reinforcement_Learning](10_Reinforcement_Learning) | 4 | Bandits → Q-learning → DQN → PPO |
+| [11_MLOps_Deployment](11_MLOps_Deployment) | 6 | Streamlit, FastAPI, Docker, CI, MLflow, drift |
 
 ## 📚 01_Fundamentals
 Core library tutorials.
@@ -38,7 +54,7 @@ Linear & logistic regression · Decision tree · Random forest · **XGBoost/grad
 - **healthcare/** — heart disease ×2, breast cancer ×2, cancer cells, Parkinson's, autism, disease prediction, calories burnt
 - **finance-stocks/** — stock price ×4 (ML/SVM/TensorFlow/Microsoft), Dogecoin, portfolio optimization, credit card fraud
 - **forecasting/** — sales forecast, Ola bike demand, vehicle count, rainfall, IPL score, **SARIMA**, **Prophet**
-- **other/** — wine quality, house & real-estate prices, music popularity, customer churn, recommender systems ×2, biometric authentication (GenAI)
+- **other/** — wine quality, house & real-estate prices, music popularity, customer churn, recommender systems ×2 + [MovieLens recommender project](03_Machine_Learning/projects/other/movielens_recommender_project.ipynb), biometric authentication (GenAI)
 
 ## 🧠 04_Deep_Learning
 | Subfolder | Contents |
@@ -52,7 +68,7 @@ Linear & logistic regression · Decision tree · Random forest · **XGBoost/grad
 | generative-models | GAN, autoencoders, RBM |
 
 ## 💬 05_NLP_Embeddings
-Word2Vec · GloVe · FastText · SMS spam detection (TF) · Fake news detection (TF) · Naive Bayes text classification · **HuggingFace transformers basics** · **DistilBERT sentiment fine-tuning** · **LDA topic modeling** · **spaCy NER & text processing**
+Word2Vec · GloVe · FastText · SMS spam detection (TF) · Fake news detection (TF) · Naive Bayes text classification · **HuggingFace transformers basics** · **DistilBERT sentiment fine-tuning** · **LDA topic modeling** · **BERTopic neural topics** · **spaCy NER & text processing**
 
 ## ✨ 06_GenAI_LLM_RAG
 All runnable free on Google Colab - no paid API keys.
@@ -90,6 +106,7 @@ All runnable free on Google Colab - no paid API keys.
 | [networkx_practical_applications](08_Graphs_Networks/networkx_practical_applications.ipynb) | NetworkX in practice |
 | [graph_algorithms_centrality_community](08_Graphs_Networks/graph_algorithms_centrality_community.ipynb) | 5 centralities, paths, Louvain communities |
 | [gnn_intro_pytorch_geometric](08_Graphs_Networks/gnn_intro_pytorch_geometric.ipynb) | GCN node classification on Cora |
+| [graph_link_prediction_pyg](08_Graphs_Networks/graph_link_prediction_pyg.ipynb) | Predict missing edges (GCN encoder + dot-product decoder) |
 
 ## 🔬 09_Other_Experiments
 Quantum computing with Qiskit ([base circuits](09_Other_Experiments/quantum/qiskit_base_circuit.ipynb), [Grover & teleportation](09_Other_Experiments/quantum/quantum_grover_teleportation.ipynb)) · [SciPy optimization: LP/MILP/curve-fitting](09_Other_Experiments/scipy_optimization_linear_programming.ipynb) · Pytensor demo · Java samples ([java/](09_Other_Experiments/java))
@@ -97,6 +114,7 @@ Quantum computing with Qiskit ([base circuits](09_Other_Experiments/quantum/qisk
 ## 🎮 10_Reinforcement_Learning
 | Notebook | Topic |
 |---|---|
+| [multi_armed_bandits](10_Reinforcement_Learning/multi_armed_bandits.ipynb) | Epsilon-greedy vs UCB1 vs Thompson sampling |
 | [q_learning_intro](10_Reinforcement_Learning/q_learning_intro.ipynb) | Tabular Q-learning on FrozenLake |
 | [dqn_cartpole_pytorch](10_Reinforcement_Learning/dqn_cartpole_pytorch.ipynb) | Deep Q-network: replay buffer + target net |
 | [ppo_stable_baselines3_intro](10_Reinforcement_Learning/ppo_stable_baselines3_intro.ipynb) | PPO policy gradients with SB3 |
