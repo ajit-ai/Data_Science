@@ -27,6 +27,7 @@ Exploratory data analysis mini projects.
 | [ipl/ipl_data_analysis](02_Data_Analysis_EDA/ipl/ipl_data_analysis.ipynb) | IPL matches EDA |
 | [zomato_data_analysis](02_Data_Analysis_EDA/zomato_data_analysis.ipynb) | Zomato restaurant data |
 | [turing_data_analysis_test](02_Data_Analysis_EDA/turing_data_analysis_test.ipynb) | Cardio/covid analytical test |
+| [movies_ratings_eda](02_Data_Analysis_EDA/movies_ratings_eda.ipynb) | MovieLens 100k - genres, decades, Bayesian weighted top-10 |
 
 ## 🤖 03_Machine_Learning
 
@@ -51,7 +52,7 @@ Linear & logistic regression · Decision tree · Random forest · **XGBoost/grad
 | generative-models | GAN, autoencoders, RBM |
 
 ## 💬 05_NLP_Embeddings
-Word2Vec · GloVe · FastText · SMS spam detection (TF) · Fake news detection (TF) · Naive Bayes text classification · **HuggingFace transformers basics** · **DistilBERT sentiment fine-tuning**
+Word2Vec · GloVe · FastText · SMS spam detection (TF) · Fake news detection (TF) · Naive Bayes text classification · **HuggingFace transformers basics** · **DistilBERT sentiment fine-tuning** · **LDA topic modeling** · **spaCy NER & text processing**
 
 ## ✨ 06_GenAI_LLM_RAG
 All runnable free on Google Colab - no paid API keys.
@@ -72,23 +73,43 @@ All runnable free on Google Colab - no paid API keys.
 | [whisper_speech_recognition](06_GenAI_LLM_RAG/whisper_speech_recognition.ipynb) | Local speech-to-text |
 
 ## ⚡ 07_BigData_Spark
-Spark basics · Spark RDDs · PySpark DataFrames · PySpark + MySQL
+| Notebook | Topic |
+|---|---|
+| [spark_basics](07_BigData_Spark/spark_basics.ipynb) | Spark fundamentals |
+| [spark_rdd_basics](07_BigData_Spark/spark_rdd_basics.ipynb) | RDD operations |
+| [pyspark_dataframe](07_BigData_Spark/pyspark_dataframe.ipynb) | DataFrame API |
+| [pyspark_mysql](07_BigData_Spark/pyspark_mysql.ipynb) | PySpark + MySQL |
+| [pyspark_mllib_pipeline](07_BigData_Spark/pyspark_mllib_pipeline.ipynb) | ML pipelines, CrossValidator tuning |
+| [spark_structured_streaming](07_BigData_Spark/spark_structured_streaming.ipynb) | Windows, watermarks, output modes |
+| [spark_sql_window_functions](07_BigData_Spark/spark_sql_window_functions.ipynb) | Rankings, running totals, lag/lead |
 
 ## 🕸️ 08_Graphs_Networks
-Network graphs · NetworkX practical applications
+| Notebook | Topic |
+|---|---|
+| [network_graph](08_Graphs_Networks/network_graph.ipynb) | Graph visualization |
+| [networkx_practical_applications](08_Graphs_Networks/networkx_practical_applications.ipynb) | NetworkX in practice |
+| [graph_algorithms_centrality_community](08_Graphs_Networks/graph_algorithms_centrality_community.ipynb) | 5 centralities, paths, Louvain communities |
+| [gnn_intro_pytorch_geometric](08_Graphs_Networks/gnn_intro_pytorch_geometric.ipynb) | GCN node classification on Cora |
 
 ## 🔬 09_Other_Experiments
-Quantum computing with Qiskit · Pytensor demo · Java samples ([java/](09_Other_Experiments/java))
+Quantum computing with Qiskit ([base circuits](09_Other_Experiments/quantum/qiskit_base_circuit.ipynb), [Grover & teleportation](09_Other_Experiments/quantum/quantum_grover_teleportation.ipynb)) · [SciPy optimization: LP/MILP/curve-fitting](09_Other_Experiments/scipy_optimization_linear_programming.ipynb) · Pytensor demo · Java samples ([java/](09_Other_Experiments/java))
 
 ## 🎮 10_Reinforcement_Learning
-[Q-learning intro](10_Reinforcement_Learning/q_learning_intro.ipynb) - tabular Q-learning on FrozenLake: exploration/exploitation, Bellman updates, greedy policy evaluation.
+| Notebook | Topic |
+|---|---|
+| [q_learning_intro](10_Reinforcement_Learning/q_learning_intro.ipynb) | Tabular Q-learning on FrozenLake |
+| [dqn_cartpole_pytorch](10_Reinforcement_Learning/dqn_cartpole_pytorch.ipynb) | Deep Q-network: replay buffer + target net |
+| [ppo_stable_baselines3_intro](10_Reinforcement_Learning/ppo_stable_baselines3_intro.ipynb) | PPO policy gradients with SB3 |
 
 ## 🚀 11_MLOps_Deployment
 | Notebook | Topic |
 |---|---|
 | [streamlit_model_app](11_MLOps_Deployment/streamlit_model_app.ipynb) | Model → interactive web app |
-| [fastapi_model_serving](11_MLOps_Deployment/fastapi_model_serving.ipynb) | REST API + pydantic validation + Docker |
-| [mlflow_experiment_tracking](11_MLOps_Deployment/mlflow_experiment_tracking.ipynb) | Params/metrics/artifacts + run comparison UI |
+| [fastapi_model_serving](11_MLOps_Deployment/fastapi_model_serving.ipynb) | REST API + pydantic validation |
+| [docker_for_ml](11_MLOps_Deployment/docker_for_ml.ipynb) | Containerize a model service |
+| [github_actions_ci_for_ml](11_MLOps_Deployment/github_actions_ci_for_ml.ipynb) | CI quality gates for models |
+| [mlflow_experiment_tracking](11_MLOps_Deployment/mlflow_experiment_tracking.ipynb) | Params/metrics/artifacts tracking |
+| [model_monitoring_drift_evidently](11_MLOps_Deployment/model_monitoring_drift_evidently.ipynb) | Data drift detection & reports |
 
 ---
 ### Libraries
