@@ -69,6 +69,7 @@ wordcloud
 # Other
 astroquery
 dust-extinction
+evidently
 findspark
 fuzzy-c-means
 gensim
@@ -92,7 +93,10 @@ pymc
 qiskit-aer
 ragas
 requests
+spacy
+stable-baselines3
 synphot
 tensorflow-hub
+torch-geometric
 tqdm
 yfinance
