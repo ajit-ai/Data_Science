@@ -1,0 +1,98 @@
+# Data_Science - library requirements (auto-generated from notebook imports)
+# Install:  pip install -r requirements.txt
+
+# Core data science
+matplotlib
+numpy
+pandas
+plotly
+scipy
+seaborn
+statsmodels
+
+# Machine learning
+kmodes
+optuna
+scikit-learn
+xgboost
+
+# Deep learning
+accelerate
+diffusers
+fastai
+openai-whisper
+safetensors
+tensorflow
+torch
+torchvision
+ultralytics
+
+# Transformers / NLP
+datasets
+evaluate
+sentence-transformers
+transformers
+
+# GenAI / RAG
+chromadb
+faiss-cpu
+langchain
+langchain-google-genai
+pandasai
+
+# Time series
+prophet
+
+# Big data and graphs
+networkx
+pyspark
+
+# Reinforcement learning
+gymnasium
+
+# Apps and MLOps
+fastapi
+mlflow
+nest_asyncio
+pydantic
+pyngrok
+streamlit
+uvicorn
+
+# Domain / misc
+astropy
+opencv-python
+pillow
+qiskit
+wordcloud
+
+# Other
+astroquery
+dust-extinction
+findspark
+fuzzy-c-means
+gensim
+hdbscan
+holidays
+imbalanced-learn
+ipython
+ipywidgets
+kaggle
+keras
+langchain-community
+langchain-core
+langchain-text-splitters
+mysql-connector-python
+nltk
+openai
+peft
+prettytable
+pylatexenc
+pymc
+qiskit-aer
+ragas
+requests
+synphot
+tensorflow-hub
+tqdm
+yfinance

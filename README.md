@@ -4,6 +4,7 @@ A curated collection of Jupyter notebook projects and tutorials covering data sc
 machine learning, deep learning, NLP, GenAI/RAG, big data, and graph analysis.
 
 Datasets live in [`content/`](content/).
+Library setup: `pip install -r requirements.txt` · Most notebooks also run free on [Google Colab](https://colab.research.google.com) via the badges below.
 
 ## 📚 01_Fundamentals
 Core library tutorials.
