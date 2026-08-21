@@ -1,1 +1,25 @@
+﻿# outputs / artifacts
 *.out
+mlruns/
+runs/
+outputs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# jupyter / colab
+.ipynb_checkpoints/
+
+# model & data caches (keep content/ datasets tracked)
+models/
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# secrets & local config
+.env
+ngrok_token*
